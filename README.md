@@ -5,7 +5,7 @@
  
 # DEMO
 
-![ゲーム開始時](./data/)
+![ゲーム開始時](./data/start.png "gamesover")
 <br>ゲーム開始画面:レーザーを撃って敵を倒そう！<br>
 ![ゲームオーバー](./data/gameover.gif "gamesover")
 <br>ゲームオーバー：敵のレーザーに当たってしまうと負けてしまう！！<br>
