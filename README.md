@@ -7,11 +7,8 @@
 
 ![ゲーム開始時](./data/start.png "gamesover")
 <br>[ゲーム開始画面]<br>
-![ゲームオーバー](./data/gameover.gif "gamesover")
-<br>ゲームオーバー：敵のレーザーに当たってしまうと負けてしまう！！<br>
-![ゲームクリア](./data/clear.gif "gameclear")
-<br>ゲームクリア：全員倒すとゲームクリア！<br>
-
+<br>
+おや
 
 
  
