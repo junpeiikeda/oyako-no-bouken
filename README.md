@@ -8,7 +8,14 @@
 ![ゲーム開始時](./data/start.png "gamesover")
 <br>[ゲーム開始画面]<br>
 <br>
-おや
+プレーヤーは親となり子供とともにゴールを目指します。<br>
+こどもは親であるプレーヤーと同じ動きをしますが、移動速度やジャンプ力などが異なるため常にこどもに気を配りながら進みましょう。<br>
+親子のどちらかが穴に落ちるか、画面上からランダムに落ちてくるやりに触たらゲームオーバーです。<br>
+プレーヤーとこどもの両方が画面右上にあるゴールにたどり通ことができればゲームクリアとなります。<br>
+<br>
+<br>
+スタート画面では、プレー難易度を選択することができます。キーボード数字ボタンで難易度選択を行ってください。
+ボタンが押された時点でゲームが開始されます。
 
 
  
@@ -16,7 +23,7 @@
  
 # Requirement
  
-"未来の射的（SHATEKI of FUTURE）"を動かすのに必要なライブラリなどを列挙する
+ゲームをプレイするにあたって必要なライブラリなどを列挙する
  
 * Python-3.7.19 or than later<br>
 * tkinter-8.6.9<br>
@@ -38,7 +45,7 @@ cd SHATEKI-of-FUTURE
 ```
 gitがインストールされていない場合<br>
 こちらからソースコードをダウンロードしてください。<br>
-github:(https://github.com/Amenbo1219/SHATEKI-of-FUTURE)<br>
+github:(https://github.com/junpeiikeda/oyako-no-bouken)<br>
 利用プラグインのインストール
 ```bash
 cd Instration
@@ -55,37 +62,17 @@ pip install Pillow
 # Usage
 
 * Python3.7.10以上がインストールされているものとする。
-* main.py,crab.jpeg,cannon.jpegをフォルダ内部に配置する。
-![ファイル配置図](./data/folderlist.svg "folderlist")
 
-* 実行はmain.pyを実行
+* 実行はgame.pyを実行
 ```bash
-python main.py
+python game.py
 ```
  
 # How to use?
-敵の発射するレーザーを避けて、敵を攻撃しよう！<br>
-<span style="font-size: 200%;color: red; ">たくさん敵を倒して高スコアを目指せ！！</span><br>
-![操作方法](./data/rule.png "rule")<br>
-移動→マウスドラッグ<br>
-球発射→マウス左ボタン<br>
-リスタート→ENTER
-
-
-# Note
-プレイ中にドラッグを解除しないでください。<br>
-抜け出せないバグに遭遇した場合はENTERキーでリスタートしてください。
+移動→キーボードカーソルキー　→↓←<br>
+ジャンプ→キーボードカーソルキー↑
  
 # Author
  
-* 作成者 JP,あほたんけ,あめんぼ
-* 所属　えぺ
-* E-mail c0b20140d0@edu.teu.ac.jp
- 
-# SpecialThanks
-* 元のコード<br>
-作成者 ishikawa08様<br>
-配布URL：(https://github.com/ishikawa08/invader_game)
-* 画像引用<br>
-無料素材サービス　株式会社シーマン様<br>
-配布URL：(https://sozai.cman.jp/)
+* 作成者 池田純平
+* E-mail c0b20010c8@edu.teu.ac.jp
