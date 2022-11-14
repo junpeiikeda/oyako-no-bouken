@@ -3,7 +3,7 @@
 操作はキーボードのみで行います。
 <br>
  
-# EXPLANATION
+# Explanation
 
 ![ゲーム開始時](./data/start.png "gamesover")
 <br>[ゲーム開始画面]<br>
