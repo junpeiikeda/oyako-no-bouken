@@ -15,7 +15,8 @@
 <br>
 <br>
 スタート画面では、プレー難易度を選択することができます。キーボード数字ボタンで難易度選択を行ってください。
-ボタンが押された時点でゲームが開始されます。
+難易度によってランダム生成される槍の頻度と数が増減します。<br>
+ボタンが押された時点でゲーム開始となります。
 
 
  
@@ -40,8 +41,8 @@ conda activate sof
 ```
 git がインストールされている場合
 ```bash
-git clone https://github.com/Amenbo1219/SHATEKI-of-FUTURE.git
-cd SHATEKI-of-FUTURE
+git clone https://github.com/junpeiikeda/oyako-no-bouken.git
+cd oyako-no-bouken
 ```
 gitがインストールされていない場合<br>
 こちらからソースコードをダウンロードしてください。<br>
@@ -69,8 +70,8 @@ python game.py
 ```
  
 # How to use?
-移動→キーボードカーソルキー　→↓←<br>
-ジャンプ→キーボードカーソルキー↑
+移動...キーボードカーソルキー　→↓←<br>
+ジャンプ...キーボードカーソルキー↑
  
 # Author
  
