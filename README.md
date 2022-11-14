@@ -1,7 +1,7 @@
 # おやこ の ぼうけん
 2体のキャラを同時に動かしゴールを目指す２Dアクションゲームです。
-そうさはキーボードのみで行います。
-
+操作はキーボードのみで行います。
+<br>
  
 # EXPLANATION
 
@@ -17,10 +17,7 @@
 スタート画面では、プレー難易度を選択することができます。キーボード数字ボタンで難易度選択を行ってください。
 難易度によってランダム生成される槍の頻度と数が増減します。<br>
 ボタンが押された時点でゲーム開始となります。
-
-
- 
-
+<br>
  
 # Requirement
  
@@ -29,7 +26,7 @@
 * Python-3.7.19 or than later<br>
 * tkinter-8.6.9<br>
 * Pillow-8.3.2<br>
-
+<br>
 
 # Installation
  
@@ -57,8 +54,7 @@ or
 ```bash
 pip install Pillow
 ```
-
-
+<br>
  
 # Usage
 
@@ -68,10 +64,12 @@ pip install Pillow
 ```bash
 python game.py
 ```
+ <br>
  
 # How to use?
 移動...キーボードカーソルキー　→↓←<br>
 ジャンプ...キーボードカーソルキー↑
+ <br>
  
 # Author
  
